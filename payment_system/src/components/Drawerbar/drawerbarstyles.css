@@ -14,15 +14,19 @@
 .drawer_section{
     display: flex;
     align-items: center;
-    padding:10px 10px;
 }
-.drawer_section > h4{
+.h4{
     padding-left: 10px;
 }
 .drawer_icon{
     height: 20px !important;
     width: 20px !important;
+    padding-left: 20px;
 }
 .badge{
     padding-left: 25px !important;
+}
+.deposit_slide{
+    display: flex;
+    align-items: center;
 }
