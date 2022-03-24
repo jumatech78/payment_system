@@ -11,22 +11,33 @@
     width: 25px !important;
 }
 
-.drawer_section{
+/* .drawer_section{
     display: flex;
     align-items: center;
-}
+} */
 .h4{
     padding-left: 10px;
+    padding-right: 10px;
 }
 .drawer_icon{
     height: 20px !important;
     width: 20px !important;
     padding-left: 20px;
 }
-.badge{
-    padding-left: 25px !important;
-}
+/* .badge{
+    padding-left: 40px !important;
+} */
 .deposit_slide{
     display: flex;
     align-items: center;
+}
+
+.badge_text{
+    display: flex;
+    align-items: center;
+}
+.badge{
+    display: flex;
+    margin-left: 15px;
+    align-items: center !important;
 }

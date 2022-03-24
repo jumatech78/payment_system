@@ -1,8 +1,12 @@
 .App {
+  flex: 1;
   display: flex;
 }
 .drawer_section{
   flex: 0.3;
+  height: 100vh;
+  padding-right: 30px;
+  border-right: 1px solid lightgrey;
 }
 .post_secction{
   flex: 0.7;

@@ -17,16 +17,13 @@ function Drawerbar() {
           <h2>Nexon</h2>
         </div>
       </div>
-      <div className="drawer_section">
+
+      <div className="badge_text">
         <TransferWithinAStationIcon className="drawer_icon" />
         <h4 className="h4">Transactions</h4>
-        <Badge
-          className="badge"
-          badgeContent={2}
-          badgeSize={15}
-          color="primary"
-        />
+        <Badge className="badge" badgeContent={2} color="primary" />
       </div>
+
       <div className="deposit_slide">
         <AccountBalanceIcon className="drawer_icon" />
         <h4 className="h4">Deposit</h4>

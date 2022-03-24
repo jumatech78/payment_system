@@ -22,9 +22,16 @@ function Navbar() {
           <SearchIcon className="search_icon" />
         </div>
 
-        <div>
+        <div
+          style={{
+            paddingLeft: 50,
+          }}
+        >
           <h3>Account Balance</h3>
         </div>
+      </div>
+      <div className="add_card">
+        <h4>New card</h4>
       </div>
     </div>
     // </div>
