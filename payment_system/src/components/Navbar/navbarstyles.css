@@ -1,0 +1,32 @@
+.navbar{
+    flex: 1;
+    display: flex;
+}
+.navbar_card{
+    display: flex;
+    align-items: center;
+}
+.search_section{
+    background-color: #eee9e9;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    width: 210px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 80px;
+}
+.search_input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.search_icon{
+    margin: 0 !important;
+    width: 20px !important;
+    height: 20px !important;
+}

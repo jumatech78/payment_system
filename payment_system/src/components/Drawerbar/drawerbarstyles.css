@@ -1,0 +1,7 @@
+.drawerbar{
+    display: flex;
+}
+.drawer_image{
+    height: 30px !important;
+    width: 30px !important;
+}

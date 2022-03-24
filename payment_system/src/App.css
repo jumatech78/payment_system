@@ -1,19 +1,31 @@
-
-
-
-
-
-
-
-
-
-
-
-/* .App {
-  text-align: center;
+.App {
+  display: flex;
+}
+.drawer_section{
+  flex: 0.3;
+}
+.post_secction{
+  flex: 0.7;
 }
 
-.App-logo {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
