@@ -1,7 +1,28 @@
 .drawerbar{
     display: flex;
+    align-items: center;
+}
+.drawer_header{
+    display: flex;
+    padding:20px 20px;
 }
 .drawer_image{
-    height: 30px !important;
-    width: 30px !important;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.drawer_section{
+    display: flex;
+    align-items: center;
+    padding:10px 10px;
+}
+.drawer_section > h4{
+    padding-left: 10px;
+}
+.drawer_icon{
+    height: 20px !important;
+    width: 20px !important;
+}
+.badge{
+    padding-left: 25px !important;
 }
