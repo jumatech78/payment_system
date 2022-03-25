@@ -4,7 +4,9 @@ import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import TransferWithinAStationIcon from "@mui/icons-material/TransferWithinAStation";
 import SystemUpdateAltIcon from "@mui/icons-material/SystemUpdateAlt";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
+import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import Badge from "@mui/material/Badge";
+import Avatar from "@mui/material/Avatar";
 
 function Drawerbar() {
   return (
@@ -35,6 +37,19 @@ function Drawerbar() {
       <div className="deposit_slide">
         <ExitToAppIcon className="drawer_icon" />
         <h4 className="h4">Send</h4>
+      </div>
+      <div className="footer_section">
+        <Avatar
+          className="footer_avatar"
+          img
+          src="https://media.istockphoto.com/photos/dreamy-arab-guy-freelancer-working-from-home-using-laptop-picture-id1331298245?b=1&k=20&m=1331298245&s=170667a&w=0&h=nJJGzr-iskXDV_AjXhp03BErbtKuSkrelBIaKBgKO1g="
+          alt=""
+        />
+        <h5>Juma Tech</h5>
+      </div>
+      <div className="bottom_footer">
+        <SettingsOutlinedIcon className="footer_icon"/>
+        <h5>Settings</h5>
       </div>
     </div>
   );
