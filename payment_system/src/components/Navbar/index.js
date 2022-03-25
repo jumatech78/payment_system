@@ -1,6 +1,8 @@
 import React from "react";
 import "./navbarstyles.css";
 import SearchIcon from "@mui/icons-material/Search";
+import TuneIcon from "@mui/icons-material/Tune";
+import ListIcon from "@mui/icons-material/List"
 
 function Navbar() {
   return (
@@ -22,12 +24,10 @@ function Navbar() {
           <SearchIcon className="search_icon" />
         </div>
 
-        <div
-          style={{
-            paddingLeft: 50,
-          }}
-        >
-          <h3>Account Balance</h3>
+        <div className="navbar_body">
+          <TuneIcon className="navbar_body_icon" />
+          <h3>Customize table</h3>
+          <ListIcon className="navbar_body_icon_middle"/>
         </div>
       </div>
       <div className="add_card">

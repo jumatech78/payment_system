@@ -8,7 +8,11 @@
     align-items: center;
 }
 .search_section{
-    background-color: #eee9e9;
+    /* background-color: #eee9e9; */
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -30,6 +34,25 @@
     margin: 0 !important;
     width: 20px !important;
     height: 20px !important;
+}
+
+.navbar_body{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.navbar_body > h3{
+    padding-left: 10px;
+    align-items: center;
+}
+.navbar_body_icon{
+    height: 30px !important;
+    width: 30px !important;
+}
+.navbar_body_icon_middle{
+    height: 35px !important;
+    width: 35px !important;
+    padding-left: 15px !important;
 }
 
 .add_card{
