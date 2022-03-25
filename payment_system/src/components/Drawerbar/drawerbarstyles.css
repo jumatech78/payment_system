@@ -30,6 +30,14 @@
 .deposit_slide{
     display: flex;
     align-items: center;
+    padding-top: -10px;
+}
+.deposit_slide_drawer{
+    display: flex;
+    align-items: center;
+    padding-top: -10px;
+    /* background-color: lawngreen;
+    margin-left: auto; */
 }
 
 .badge_text{

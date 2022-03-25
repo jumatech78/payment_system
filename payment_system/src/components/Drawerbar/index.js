@@ -26,7 +26,7 @@ function Drawerbar() {
         <Badge className="badge" badgeContent={2} color="primary" />
       </div>
 
-      <div className="deposit_slide">
+      <div className="deposit_slide_drawer">
         <AccountBalanceIcon className="drawer_icon" />
         <h4 className="h4">Deposit</h4>
       </div>
