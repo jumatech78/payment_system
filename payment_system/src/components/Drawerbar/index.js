@@ -38,6 +38,7 @@ function Drawerbar() {
         <ExitToAppIcon className="drawer_icon" />
         <h4 className="h4">Send</h4>
       </div>
+      
       <div className="footer_section">
         <Avatar
           className="footer_avatar"
